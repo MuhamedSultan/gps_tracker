@@ -6,6 +6,10 @@
         android:label="gps_tracker"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCUPPzW5Zdr34yBcWM5uo16UJPvsBeHpiA"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
